@@ -1,0 +1,7 @@
+{
+  "id": "Q026",
+  "source_definition": "The source gives positive binary integer weights. A valid output is a subset whose sum is half the total, or NO-SOLUTION if no such subset exists.",
+  "target_definition": "The target gives independent coins with rational probabilities strictly between zero and one, positive test costs, and a rational bound K. Choose a fixed testing order whose expected cost is at most K, stopping at the first two different outcomes or after all coins.",
+  "required_result": "Construct deterministic polynomial-time maps F and G: F sends every legal source instance to a legal target instance, and G(x,y) is a valid source output for every valid output y of F(x). Preserve the stated threshold, domain and promises. The requested complexity conclusion is NP-hardness for the stated target problem.",
+  "equation": ""
+}
